@@ -1,0 +1,39 @@
+.banner-collapse {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 1rem 0;
+    overflow: hidden;
+    background-color: #f8f9fa;
+  
+    &__header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem;
+      cursor: pointer;
+      background-color: rgb(65, 64, 64);
+      color: #fff;
+      height: 95px;
+  
+      h2 {
+        margin: 0;
+        font-size: 1.25rem;
+      }
+  
+      .banner-collapse__toggle {
+        font-size: 1.5rem;
+        background: none;
+        border: none;
+        color: #fff;
+        cursor: pointer;
+      }
+    }
+  
+    &__content {
+      padding: 1rem;
+      background-color: #ffffff;
+      color: #333;
+      font-size: 1rem;
+    }
+  }
+  

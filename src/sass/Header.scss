@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #ddd;
+}
+
+.header-logo {
+  height: 50px;
+}
+
+.nav {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav__list {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+
+  &.active {
+    color: #007bff;
+  }
+}
